@@ -1,0 +1,18 @@
+.airbar{
+    // Basic (Not Default Styling) (Cruiser Mode)
+    background-color: #fefefe;
+    border-radius: 1000px;
+    border: 0.1rem solid purple;
+    height: 5vh;
+    width: 20vw;
+    position: absolute;
+    left: 50%;
+    top: 87.5%;
+    transform: translateX(-50%);
+
+    &_handler {
+        width: 20%;
+        display: inline-block;
+        // display: inline;
+    }
+}

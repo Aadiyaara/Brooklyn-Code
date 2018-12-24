@@ -1,0 +1,42 @@
+{
+  "name": "brooklyn-code",
+  "version": "0.0.2",
+  "description": "Web Portal for Simultanous Coding",
+  "main": "index.js",
+  "scripts": {
+    "test": "testAll",
+    "start": "webpack-dev-server --mode development --open --hot ",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aadiyaara/brooklyn-code.git"
+  },
+  "keywords": [
+    "CodeCast"
+  ],
+  "author": "Aadiyaara  <aadiyaara@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aadiyaara/brooklyn-code/issues"
+  },
+  "homepage": "https://github.com/aadiyaara/brooklyn-code#readme",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
